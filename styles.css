@@ -12,6 +12,7 @@ body {
 	padding: 20px 16px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	border-bottom: 1px solid #595959;
 	position: sticky;
 	top: 0;
@@ -23,6 +24,7 @@ body {
 	font-family: 'Caprasimo', serif;
 	font-size: 20px;
 	color: #2c2825;
+	text-decoration: none;
 }
 
 .burger-menu {
@@ -49,12 +51,11 @@ header {
 
 .logo {
 	text-align: center;
-	margin-top: 66px;
-	margin-bottom: 44px;
+	margin: 66px auto 44px;
 }
 
 .logo img {
-	width: 263px;
+	width: 100%;
 }
 
 .image-wrapper {
@@ -90,7 +91,7 @@ header {
 }
 
 .sticker :first-child {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
 }
 
@@ -147,10 +148,13 @@ main {
 	margin-top: 40px;
 }
 
+.about-us-btn:focus:not(:focus-visible) {
+	outline: none;
+}
+
 .carousel {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	gap: 13.35px;
 	height: 200px;
 	padding-bottom: 37.39px;
@@ -216,6 +220,7 @@ li h3 {
 	font-weight: bold;
 	margin-bottom: 30px;
 	color: #171615;
+    overflow-wrap: break-word;
 }
 
 li p {
@@ -307,6 +312,7 @@ li:last-child .service-list-img-wrapper::before {
 
 .footer-content {
 	position: absolute;
+	width: 100%;
 	bottom: 20px;
 	left: 50%;
 	transform: translateX(-50%);
@@ -316,6 +322,7 @@ li:last-child .service-list-img-wrapper::before {
 .footer-logo {
 	font-size: 117px;
 	font-family: 'Caprasimo', serif;
+	text-align: center;
 }
 
 .contact {
@@ -324,4 +331,107 @@ li:last-child .service-list-img-wrapper::before {
 	font-weight: 500;
 	display: flex;
 	justify-content: space-between;
+	padding: 0 46px;
+}
+
+.nav-items {
+	display: none;
+}
+
+.logo-desktop {
+	display: none;
+}
+
+/* Responsive */
+
+@media (min-width: 800px) {
+	.burger-menu {
+		display: none;
+	}
+
+	.nav-items {
+		display: flex;
+		gap: 40px;
+	}
+
+	.nav-item {
+		font-family: 'Outfit', sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #2c2825;
+		text-decoration: none;
+	}
+
+	.logo-mobile {
+		display: none;
+	}
+
+	.logo-desktop {
+		display: block;
+		font-family: 'Caprasimo', serif;
+		font-size: 28px;
+		color: #2c2825;
+		text-decoration: none;
+	}
+
+	.sticker {
+		width: 188.31px;
+		height: 188.31px;
+		gap: 8px;
+		bottom: 22.5px;
+		left: 22.5px;
+	}
+
+	.sticker :nth-child(2) {
+		font-size: 22px;
+		font-weight: 500;
+	}
+
+	.content h2 {
+		font-size: 14px;
+	}
+
+	.content p {
+		font-size: 36px;
+		max-width: 430px;
+		margin: 0 auto;
+	}
+
+	.carousel {
+		gap: 20px;
+		height: 375px;
+		padding-bottom: 75px;
+	}
+
+	.carousel-img-wrapper {
+		width: 300px;
+		height: 300px;
+		margin-top: 0;
+	}
+
+	.what-we-do h2 {
+		font-size: 45px;
+	}
+
+	.order-number {
+		font-size: 45px;
+	}
+
+	li h3 {
+		font-size: 50;
+	}
+
+	.footer-img-wrapper {
+		padding: 0 40px;
+        height: 579px;
+	}
+
+	.footer-img-wrapper::before {
+		left: 40px;
+		right: 40px;
+	}
+	.contact {
+		padding: 0 70px;
+	}
 }
