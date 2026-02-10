@@ -375,6 +375,10 @@ li:last-child .service-list-img-wrapper::before {
 		text-decoration: none;
 	}
 
+	header {
+		padding: 0 40px;
+	}
+
 	.sticker {
 		width: 188.31px;
 		height: 188.31px;
@@ -422,6 +426,10 @@ li:last-child .service-list-img-wrapper::before {
 		font-size: 45;
 	}
 
+	li p {
+		padding: 0 50px;
+	}
+
 	.purple-flower-img-wrapper {
 		height: 450.98px;
 	}
@@ -457,6 +465,10 @@ li:last-child .service-list-img-wrapper::before {
 
 	li h3 {
 		font-size: 50;
+	}
+
+	li p {
+		padding: 0 290px;
 	}
 
 	.purple-flower-img-wrapper {
