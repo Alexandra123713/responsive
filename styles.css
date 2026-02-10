@@ -189,7 +189,6 @@ section {
 .what-we-do p {
 	font-size: 16px;
 	color: #2c2825;
-	letter-spacing: -2.5%;
 	padding: 40px 0;
 	border-bottom: 1px solid #595959;
 }
@@ -477,5 +476,11 @@ li:last-child .service-list-img-wrapper::before {
 
 	.footer-img-wrapper {
 		height: 582px;
+	}
+}
+
+@media (min-width: 1660px) {
+	.carousel {
+		justify-content: center;
 	}
 }
