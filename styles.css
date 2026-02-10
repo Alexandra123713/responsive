@@ -220,7 +220,7 @@ li h3 {
 	font-weight: bold;
 	margin-bottom: 30px;
 	color: #171615;
-    overflow-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 li p {
@@ -419,19 +419,51 @@ li:last-child .service-list-img-wrapper::before {
 	}
 
 	li h3 {
-		font-size: 50;
+		font-size: 45;
+	}
+
+	.purple-flower-img-wrapper {
+		height: 450.98px;
 	}
 
 	.footer-img-wrapper {
 		padding: 0 40px;
-        height: 579px;
+		height: 579px;
 	}
 
 	.footer-img-wrapper::before {
 		left: 40px;
 		right: 40px;
 	}
+
 	.contact {
 		padding: 0 70px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.logo-desktop {
+		font-size: 30px;
+	}
+
+	.content p {
+		max-width: 740px;
+		font-size: 40px;
+	}
+
+	.what-we-do h2 {
+		font-size: 50px;
+	}
+
+	li h3 {
+		font-size: 50;
+	}
+
+	.purple-flower-img-wrapper {
+		height: 751.64px;
+	}
+
+	.footer-img-wrapper {
+		height: 582px;
 	}
 }
