@@ -1,10 +1,14 @@
- Our Blooms® — Figma to Responsive Landing Page
+ Our Blooms® - Figma to Responsive Home Page
 
-A fully responsive landing page built from a ready-made Figma design, implemented using HTML5 and CSS3.
+ Live Demo: https://alexandra123713.github.io/responsive/
+
+A fully responsive home page built from a ready-made Figma design, implemented using HTML5 and CSS3.
 
  What I Delivered
 
-- Fully responsive landing page
+- Pixel-accurate implementation from Figma
+
+- Fully responsive home page
 
 - Mobile-first development approach
 
